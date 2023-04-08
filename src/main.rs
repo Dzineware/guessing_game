@@ -31,7 +31,7 @@ fn main() {
     //we will be forced to go Ctrl + C to stop such iteration
     loop {
         // use the println macro, again to prompte the user to input a value
-        println!("Input your guess:");
+        println!("Please Input your guess here:");
 
         // create a variable to store user input
         // consiering that user inpits change over time we have to make sure that the variable is mutable using mut keyword
